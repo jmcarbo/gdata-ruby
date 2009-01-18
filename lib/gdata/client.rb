@@ -99,7 +99,8 @@ module GData
       when Net::HTTPSuccess
         @headers = {
           'Authorization' => "GoogleLogin auth=#{response_data["Auth"]}",
-          'Content-Type' => 'application/atom+xml'
+          'Content-Type' => 'application/atom+xml',
+					'GData-Version' => '2'
         }
         @authenticated = true
       when Net::HTTPForbidden

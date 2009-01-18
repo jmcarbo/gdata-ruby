@@ -9,7 +9,8 @@ $hoe = Hoe.new('GData', GData::VERSION) do |p|
   p.post_install_message = 'PostInstall.txt' # TODO remove if post-install message not required
   p.rubyforge_name       = p.name # TODO this is default value
   p.extra_deps         = [
-    ['builder', '>=2.1.2']
+    ['builder', '>=2.1.2'],
+		['xml-simple', '>=1.0.11']
   ]
   p.extra_dev_deps = [
     ['newgem', ">= #{::Newgem::VERSION}"]
