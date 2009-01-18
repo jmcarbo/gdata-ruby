@@ -1,3 +1,7 @@
+== 0.0.5 / 2009-01-18
+
+* Add contacts api list
+
 == 0.0.4 / 2007-06-19
 
 * Add support for creating new entries in Blogger in GData::Blogger

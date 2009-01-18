@@ -8,7 +8,7 @@
 # Liscensing for the GData API under the Apache Liscense, version 2.0.
 #
 #
-require 'gdata/client'
+#require 'gdata/client'
 require 'rubygems'
 require 'builder'
 require 'rexml/document'
